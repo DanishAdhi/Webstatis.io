@@ -16,10 +16,91 @@
    
    <br>
 <!--Foto dari Website-->
-<a href="https://www.audi-mediacenter.com/en/audi-r18-e-tron-quattro-76"> 
-<img class="Mobil Balap" src="images/Audi r18.jpg" height="400" width="700";> 
-</a>
-<br>
+<style>
+   * {box-sizing: border-box}
+   .mySlides1, .mySlides2 {display: none}
+   img {vertical-align: middle;}
+   
+   /* Slideshow container */
+   .slideshow-container {
+     max-width: 1000px;
+     position: relative;
+     margin: auto;
+   }
+   
+   /* Next & previous buttons */
+   .prev, .next {
+     cursor: pointer;
+     position: absolute;
+     top: 50%;
+     width: auto;
+     padding: 16px;
+     margin-top: -22px;
+     color: white;
+     font-weight: bold;
+     font-size: 18px;
+     transition: 0.6s ease;
+     border-radius: 0 3px 3px 0;
+     user-select: none;
+   }
+   
+   /* Position the "next button" to the right */
+   .next {
+     right: 0;
+     border-radius: 3px 0 0 3px;
+   }
+   
+   /* On hover, add a grey background color */
+   .prev:hover, .next:hover {
+     background-color: #f1f1f1;
+     color: black;
+   }
+   </style>
+   </head>
+   <body>
+   
+   <h2 style="text-align:center">Foto</h2>
+   
+   <div class="slideshow-container">
+     <div class="mySlides1">
+       <a href="https://www.audi-mediacenter.com/en/audi-r18-e-tron-quattro-76"> 
+       <img src="images/Audi r18.jpg" style="width:100%">
+     </div>
+   
+     <div class="mySlides1">
+       <a href="https://www.goodwood.com/grr/race/modern/2017/1/gallery-the-audi-r18-in-details-is-basically-modern-art/"> 
+       <img src="images/audi r18 interior.jpg" style="width:100%">
+     </div>
+
+   
+     <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
+     <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
+   </div>
+   
+   
+   <script>
+   let slideIndex = [1,1];
+   let slideId = ["mySlides1", "mySlides2"]
+   showSlides(1, 0);
+   showSlides(1, 1);
+   
+   function plusSlides(n, no) {
+     showSlides(slideIndex[no] += n, no);
+   }
+   
+   function showSlides(n, no) {
+     let i;
+     let x = document.getElementsByClassName(slideId[no]);
+     if (n > x.length) {slideIndex[no] = 1}    
+     if (n < 1) {slideIndex[no] = x.length}
+     for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";  
+     }
+     x[slideIndex[no]-1].style.display = "block";  
+   }
+   </script>
+   </a>
+   <br>
 <!--Deskripsi Artikel-->
 <div style="text-align: justify;font-family: 'Courier New', Courier, monospace, Courier, monospace;font-size: 20px; padding-left: 5%;padding-right: 5%;" > Kejuaraan Dunia Ketahanan/<i>World Endurance Championship(WEC)</i> merupakan ajang balapan ketahanan kelas dunia yang diselenggarakan oleh <i>Fédération Internationale de l'Automobile (FIA)</i> dan <i>Automobile Club of the West of France(ACO)</i>. Ajang ini didirikan pada tahun 2012 dan menjadi penerus dari <i>InterContinental Le Mans Cup</i> sekaligus kembali menjadi nama ajang balapan sejak tahun 1985 silam. Adapun seri yang paling dikenal dari ajang balapan ini ialah <i>24 Hours of Le Mans</i>, Yang merupakan balapan yang legenderis dan memiliki prestisius yang tinggi. Balapan ini sejak tahun 2012 menjadi seri dari ajang balapan <i>World Endurance Championship</i> (WEC). Dalam Ajang <i>World Endurance Championship</i>(WEC) ini terdapat beberapa kelas,Mulai dari kelas mobil GT (<i>Grand Touring</i>),lalu kelas prototipe seperti LMP1 (<i>Le Mans Prototype 1 </i>) yang sekarang menjadi kelas LMH (<i>Le Mans Hypercar</i>),hingga kelas inovasi (<i>Innovative Class</i>) yang hanya ada pada seri <i>24 Hours Of Le Mans</i>. 
    Pada artikel ini penulis akan menjelaskan salah satu mobil yang unik pada kelas (LMP1), Yaitu mobil milik team Audi Sport Team Joest yang bernama Audi R18.Audi R18 merupakan salah satu mobil pada kelas LMP1, mobil ini merupakan penerus dari Audi R10 dan Audi R15. Adapun keunikan dari mobil ini ialah karena merupakan salah satu mobil balap prototipe yang menggunakan mesin diesel selain kedua pendahulunya dan Peugeot 908 HDI FAP . Hal ini dianggap unik karena disaat pabrikan lain menggunakkan mesin bensin untuk mobil balapnya,Audi memilih untuk menggunakkan mesin diesel agar dapat mendapatkan efisensi yang lebih tinggi daripada lawan-lawannya yang menggunakkan mesin bensin. 
@@ -98,11 +179,6 @@ Adapun alasan mengapa Audi harus menghentikan perjalanannya di WEC (<i>World End
    4,650mm x 2,000mm x 1,030mm (TDI,Ultra,2012-2013 e-tron quattro). <br>
    4,650mm x 1,900mm x 1,050mm (e-tron quattro 2014-2015,2016)
    </p>
-<h3 style="text-align: center;">Video</h3>
-<video style="display: block; margin: auto;" width="700" height="300" controls>
-   <source src="video/2015 Audi R18 e-Tron Quattro Le Mans Spec Going Flat Out @ Track! (1).mp4" type="video/mp4">
- Your browser does not support the video tag.
- </video>
    
 
 
