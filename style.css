@@ -1,0 +1,60 @@
+
+body {
+    font-family: monospace;
+    background-color: goldenrod;
+    color:black;
+    padding-left: 5%;
+    padding-right:5%;
+    text-align: justify;
+}
+
+#A {
+    background-color: maroon;
+    color:white;
+    padding:10px;
+    margin-left:10px;
+    margin-right:10px;
+    text-align:center;
+    border-radius: 100px;
+
+}
+
+#B {
+    background-color:black;
+    color:white;
+    margin-left :10px;
+    margin-right:10px;
+    text-align:center;
+    border-radius: 100px
+}
+
+img {
+    width:20% /*ukuran gambar*/
+
+}
+
+
+
+h1 {
+    margin-left:50px;
+    margin-right: 50px;
+    font-size: 200%;
+    backdrop-filter: blur(01px);
+    color:black;
+    text-align: center;
+
+}
+
+/*paragraf*/
+p {
+    background-color: whitesmoke;
+    color: black;
+    text-align:justify;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 20px;
+
+}
+
+
+
